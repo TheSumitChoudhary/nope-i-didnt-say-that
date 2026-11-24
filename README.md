@@ -1,9 +1,7 @@
-# Evidence Filter
+# Nope, I Didn’t Say That
 
-A Codex skill for testing competing explanations. Separate observations from interpretations, rule out candidates that conflict with reliable evidence, and choose the next check that can tell the remaining explanations apart.
-
-**Rule:** Eliminate an explanation only when reliable evidence contradicts a prediction it requires. If several explanations still fit, report what remains open.
+A Codex skill for checking interpretations against what the user actually said. Act on clear corrections, label inferences, and verify the result.
 
 ## Use the skill
 
-Save [SKILL.md](SKILL.md) as `~/.codex/skills/evidence-filter/SKILL.md`. In a new Codex chat, invoke `$evidence-filter` with the question and what you observed.
+Save [SKILL.md](SKILL.md) as `~/.codex/skills/nope-i-didnt-say-that/SKILL.md`. Run `$nope-i-didnt-say-that` in a new Codex chat.
